@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Secrets - NEVER commit these
+.env
+saferide_sakhi/.env
+*.env
+
+# Databases (synthetic, regenerable)
+saferide_sakhi/data/saferide.db
+saferide_sakhi/data/chroma_store/
+
+# Generated files (regenerable with scripts)
+saferide_sakhi/data/synthetic/
+saferide_sakhi/data/eval_results.json
+saferide_sakhi/logs/
+
+# Cache / test artefacts
+.pytest_cache/
+*.jsonl
+architecture_spec.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml

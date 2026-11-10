@@ -1,0 +1,41 @@
+
+# SafeRide Sakhi – Python 3.12
+# Core
+streamlit==1.35.0
+python-dotenv==1.0.1
+pydantic==2.7.1
+httpx==0.27.0
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# LLM SDKs
+ibm-watsonx-ai==1.0.10         # IBM Granite via watsonx
+google-generativeai==0.7.2     # Gemini
+groq==0.9.0                    # Groq
+
+# Geospatial / mapping
+folium==0.16.0
+streamlit-folium==0.20.0
+geopy==2.4.1
+shapely==2.0.4
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+faker==25.2.0
+
+# Vector DB (long-term memory)
+chromadb==0.5.3
+
+# Guardrails
+nemoguardrails==0.9.0
+
+# Observability / logging
+structlog==24.1.0
+
+# Schema validation
+jsonschema==4.22.0
+
+# Testing
+pytest==8.2.2
+pytest-asyncio==0.23.7
